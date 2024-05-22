@@ -165,7 +165,7 @@ async def update_shipment(shipment_id: UUID, status: str):
     raise HTTPException(status_code=404, detail="Shipment not found")
 
 initializeInventory()
-
+# Main point to run the server
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="localhost", port=8000)
