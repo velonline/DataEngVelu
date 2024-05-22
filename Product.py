@@ -4,7 +4,7 @@ from typing import List, Optional
 from uuid import UUID, uuid4
 from enum import Enum
 import random
-
+# Supply Chain products
 class ProductType(str, Enum):
     storage = "storage"
     networking = "networking"
